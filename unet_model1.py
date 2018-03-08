@@ -17,7 +17,7 @@ class unet_model1():
         self.img_rows = img_rows
         self.img_cols = img_cols
         self.img_channels = img_channels
-        self.name = 'epinet_model1_cnn'
+        self.name = 'unet_model1'
         
     # Ref: http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
     def get_model(self): 
