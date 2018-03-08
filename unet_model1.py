@@ -12,7 +12,7 @@ from keras.layers import Input, merge, Conv2D, MaxPooling2D, UpSampling2D, Dropo
 ###############################################################################
 #                                  MODEL 1  (U-net)                           #
 ###############################################################################
-class epinet_model1_cnn():
+class unet_model1():
     def __init__(self, img_rows = 50, img_cols = 50, img_channels = 3):
         self.img_rows = img_rows
         self.img_cols = img_cols
